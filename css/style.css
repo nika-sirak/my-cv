@@ -124,10 +124,7 @@ body.dark-theme {
   color: #fff;
 }
 body.dark-theme .header {
-  background-image: url(./images/background-dark.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: left top;
+  background-color: #5f575a;
 }
 body.dark-theme .left-side {
   background-color: #363535;
@@ -151,10 +148,7 @@ body.dark-theme .right-side {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  background-image: url(./images/background.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: right bottom;
+  background-color: #a36c80;
 }
 .prof {
   margin-bottom: 20px;
