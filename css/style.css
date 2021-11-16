@@ -4,7 +4,7 @@
   --accent-font: 'Raleway', sans-serif;
   --primary-text-color: #212121;
   --secondary-text-color: #d1c7c7;
-  --accent-text-color: #8f576c;
+  --accent-text-color: #b4758c;
 }
 
 body {
@@ -148,14 +148,18 @@ body.dark-theme .right-side {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  background-color: #a36c80;
+  background-color: #a7818f;
 }
 .prof {
   margin-bottom: 20px;
+  font-size: 26px;
   line-height: 1.364;
   letter-spacing: 0.06em;
 }
 .name {
+  font: var(--accent-font);
+  font-size: 20px;
+  font-weight: 700;
   margin-bottom: 20px;
   line-height: 1.364;
   letter-spacing: 0.06em;
@@ -197,6 +201,8 @@ body.dark-theme .right-side {
 .contacts-link,
 .tech-list-item,
 .soft-list-item {
+  line-height: 1.364;
+
   color: var(--secondary-text-color);
 }
 /*======== Right Side =======*/
@@ -210,8 +216,10 @@ body.dark-theme .right-side {
 .profesion-title,
 .education-title {
   margin-top: 15px;
-  margin-bottom: 10px;
+
+  font: var(--accent-font);
   font-weight: 700;
+  margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -241,7 +249,7 @@ body.dark-theme .right-side {
 .accent,
 .section {
   font-weight: 600;
-  color: var(--secondary-text-color);
+  color: #ac929d;
 }
 
 .time {
