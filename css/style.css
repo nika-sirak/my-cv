@@ -124,7 +124,7 @@ body.dark-theme {
   color: #fff;
 }
 body.dark-theme .header {
-  background-image: url(/images/background-dark.jpg);
+  background-image: url(./images/background-dark.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
@@ -151,7 +151,7 @@ body.dark-theme .right-side {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  background-image: url(/images/background.jpg);
+  background-image: url(./images/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right bottom;
