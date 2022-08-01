@@ -1,110 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My CV</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-    integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
-    crossorigin="anonymous" />
-  <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-      <div class="toolbar">
-        <div class="theme-switch">
-          <svg class="theme-switch__icon" role="img" aria-label="Иконка солнца">
-            <use href="./images/sprite.svg#sun"></use>
-          </svg>
-      
-          <div class="theme-switch__control">
-            <input class="theme-switch__toggle" type="checkbox" name="theme" id="theme-switch-toggle"
-              aria-label="Переключить между тёмной и светлой темой" />
-            <label aria-hidden="true" class="theme-switch__track" for="theme-switch-toggle">
-            </label>
-            <div aria-hidden="true" class="theme-switch__marker"></div>
-          </div>
-      
-          <svg class="theme-switch__icon" aria-label="Иконка луны">
-            <use href="./images/sprite.svg#moon"></use>
-          </svg>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My CV</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+      integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="toolbar">
+      <div class="theme-switch">
+        <svg class="theme-switch__icon" role="img" aria-label="Иконка солнца">
+          <use href="./images/sprite.svg#sun"></use>
+        </svg>
+
+        <div class="theme-switch__control">
+          <input
+            class="theme-switch__toggle"
+            type="checkbox"
+            name="theme"
+            id="theme-switch-toggle"
+            aria-label="Переключить между тёмной и светлой темой"
+          />
+          <label
+            aria-hidden="true"
+            class="theme-switch__track"
+            for="theme-switch-toggle"
+          >
+          </label>
+          <div aria-hidden="true" class="theme-switch__marker"></div>
         </div>
+
+        <svg class="theme-switch__icon" aria-label="Иконка луны">
+          <use href="./images/sprite.svg#moon"></use>
+        </svg>
       </div>
-  <div class="wrapper">
-  <header class="header">
-      <h1 class="prof">Front-End Developer</h1>
-      <h2 class="name">Veronika Sirak</h2>
-  </header>
- <main>
-   <div class="container">
-     <div class="left-side">
-       <div class="photo-container">
-        <img class="photo" src="./images/nika.jpg" alt="my photo">
-       </div>
-      <h2 class="title">Contacts</h2>
-      <ul class="contacts-list">
-        <li class="contacts-list-item"><a class="contacts-link" href="tel:+380954014738">+380954014738</a></li>
-        <li class="contacts-list-item"><a class="contacts-link" href="mailto:7nicka@gmail.com">7nicka@gmail.com</a></li>
-        <li class="contacts-list-item"><a class="contacts-link" href="https://github.com/nika-sirak">GitHub</a></li>
-      </ul>
-      <h2 class="title">Tech Skills</h2>
-      <ul class="tech-list">
-        <li class="tech-list-item">HTML5</li>
-        <li class="tech-list-item">CSS3</li>
-        <li class="tech-list-item">SASS</li>
-        <li class="tech-list-item">JavaScript</li>
-      </ul>
-      <h2 class="title">Soft Skills</h2>
-      <ul class="soft-list">
-        <li class="soft-list-item">Diligence</li>
-        <li class="soft-list-item">ScrumMaster</li>
-        <li class="soft-list-item">Critical thinking</li>
-        <li class="soft-list-item">Self-motivation</li>
-      </ul>
-     </div>
-     <div class="right-side">
-       <h2 class="title right-side">Summary</h2>
-       <p>I am studying at GoIT Academy (Front-End developer). I am looking for a new experience in a company where I can develop, work on interesting projects
-      and grove up with a friendly team. I have knowledge of HTML, CSS, JavaScript and I also have experience as a Scrum Master on team projects.</p>
-        <h2 class="title right-side">Projects</h2>
-        <ul class="projects-list">
-          <li class="projects-list-item">
-            <a class="projects-list-link"
-            href="https://nika-sirak.github.io/goit-markup-hw-08/">
-            WebStudio
-          </a>
-            <p class="project-desc"><span class="accent">Own project</span>...HTML5, CSS3, SASS </p>
-          </li>
-          <li class="projects-list-item">
-            <a class="projects-list-link"
-            href="https://kviktork.github.io/English_school/">
-            Hellen
-          </a>
-            <p class="project-desc"> <span class="accent">Scrum master on team project</span>...HTML5, CSS3, SASS</p>
-          </li>
-          <li class="projects-list-item">
-            <a class="projects-list-link"
-            href="https://virysik.github.io/goit-js-final-team-project-filmoteka/">
-            Filmoteka
-          </a>
-            <p class="project-desc"> <span class="accent">Scrum master on team project</span>...HTML5, CSS3, SASS, JavaScript</p>
-          </li>
-        </ul>
-        <h2 class="title right-side">Work Experience</h2>
-            <h3 class="profesion-title">Statistics Tutor <span class="accent">Freelance</span></h3>
+    </div>
+    <div class="wrapper">
+      <header class="header">
+        <h1 class="prof">Front End Developer</h1>
+        <h2 class="name">Veronika Sirak</h2>
+      </header>
+      <main>
+        <div class="container">
+          <div class="left-side">
+            <div class="photo-container">
+              <img class="photo" src="./images/nika.jpg" alt="my photo" />
+            </div>
+            <h2 class="title">Contacts</h2>
+            <ul class="contacts-list">
+              <li class="contacts-list-item">
+                <a class="contacts-link" href="tel:+380954014738"
+                  >+380954014738</a
+                >
+              </li>
+              <li class="contacts-list-item">
+                <a class="contacts-link" href="mailto:7nicka@gmail.com"
+                  >7nicka@gmail.com</a
+                >
+              </li>
+              <li class="contacts-list-item">
+                <a class="contacts-link" href="https://github.com/nika-sirak"
+                  >GitHub</a
+                >
+              </li>
+            </ul>
+            <h2 class="title">Tech Skills</h2>
+            <ul class="tech-list">
+              <li class="tech-list-item">HTML5</li>
+              <li class="tech-list-item">CSS3</li>
+              <li class="tech-list-item">SASS</li>
+              <li class="tech-list-item">JavaScript</li>
+            </ul>
+            <h2 class="title">Soft Skills</h2>
+            <ul class="soft-list">
+              <li class="soft-list-item">Diligence</li>
+              <li class="soft-list-item">ScrumMaster</li>
+              <li class="soft-list-item">Critical thinking</li>
+              <li class="soft-list-item">Self-motivation</li>
+            </ul>
+          </div>
+          <div class="right-side">
+            <h2 class="title right-side">Summary</h2>
+            <p>
+              I am studying at GoIT Academy (Front-End developer). I am looking
+              for a new experience in a company where I can develop, work on
+              interesting projects and grove up with a friendly team. I have
+              knowledge of HTML, CSS, JavaScript and I also have experience as a
+              Scrum Master on team projects.
+            </p>
+            <h2 class="title right-side">Projects</h2>
+            <ul class="projects-list">
+              <li class="projects-list-item">
+                <a
+                  class="projects-list-link"
+                  href="https://nika-sirak.github.io/goit-markup-hw-08/"
+                >
+                  WebStudio
+                </a>
+                <p class="project-desc">
+                  <span class="accent">Own project</span>...HTML5, CSS3, SASS
+                </p>
+              </li>
+              <li class="projects-list-item">
+                <a
+                  class="projects-list-link"
+                  href="https://kviktork.github.io/English_school/"
+                >
+                  Hellen
+                </a>
+                <p class="project-desc">
+                  <span class="accent">Scrum master on team project</span
+                  >...HTML5, CSS3, SASS
+                </p>
+              </li>
+              <li class="projects-list-item">
+                <a
+                  class="projects-list-link"
+                  href="https://virysik.github.io/goit-js-final-team-project-filmoteka/"
+                >
+                  Filmoteka
+                </a>
+                <p class="project-desc">
+                  <span class="accent">Scrum master on team project</span
+                  >...HTML5, CSS3, SASS, JavaScript
+                </p>
+              </li>
+            </ul>
+            <h2 class="title right-side">Work Experience</h2>
+            <h3 class="profesion-title">
+              Statistics Tutor <span class="accent">Freelance</span>
+            </h3>
             <p class="time">March 2016 - October 2021 | Portugal</p>
             <ul>
-              <li class="profesion-desc">Developed program to work with students who attend colleges</li>
+              <li class="profesion-desc">
+                Developed program to work with students who attend colleges
+              </li>
               <li class="profesion-desc">Improved average scores on exams</li>
             </ul>
-            <h3 class="profesion-title">School Psychologist <span class="accent">Oberig</span></h3>
+            <h3 class="profesion-title">
+              School Psychologist <span class="accent">Oberig</span>
+            </h3>
             <p class="time">September 2015 - February 2016 | Portugal</p>
             <ul>
-              <li class="profesion-desc">Provide multi-disciplinary therapies to aid positive behavioral changes in the classroom.</li>
-              <li class="profesion-desc">Conduct assessments for students with behavioral disorders.</li>
+              <li class="profesion-desc">
+                Provide multi-disciplinary therapies to aid positive behavioral
+                changes in the classroom.
+              </li>
+              <li class="profesion-desc">
+                Conduct assessments for students with behavioral disorders.
+              </li>
             </ul>
             <h2 class="title right-side">Education</h2>
             <ul>
@@ -119,10 +175,10 @@
                 <p class="time">November 2020 - present</p>
               </li>
             </ul>
-     </div>
-   </div>
- </main>
-</div>
-<script src="./js/switch-theme.js" type="module"></script>
-</body>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="./js/switch-theme.js" type="module"></script>
+  </body>
 </html>
