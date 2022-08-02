@@ -11,7 +11,7 @@ reloadPage();
 
 themeSwitchEl.addEventListener('click', onCheckboxClick);
 
-function onCheckboxClick(evt) {
+function onCheckboxClick() {
   if (document.body.classList.contains(Theme.LIGHT)) {
     addClassTheme(Theme.LIGHT, Theme.DARK);
     localStorage.setItem(STORAGE_KEY, document.body.classList.value);
